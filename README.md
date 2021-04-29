@@ -1,8 +1,8 @@
-<h1 align="center">youtube.js</h1>
+<h1 align="center">youtube-api.js</h1>
 <p align="center">A Node.js Package For Interacting With Youtube V3 API</p>
 
 ## Installation
-[![NPM](https://nodei.co/npm/youtube.js.png)](https://nodei.co/npm/youtube.js/)
+[![NPM](https://nodei.co/npm/youtube-api.js.png)](https://nodei.co/npm/youtube-api.js/)
 ## Api Menu
 * [Getting API](#getting-api)
 * [Youtube Search](#youtube-search)
@@ -23,7 +23,7 @@ Here is A Method to Get Youtube API Key in Steps: [(Tutorial By RapidAPI)](https
 ### Youtube Search
 The Basic Usage To Search for youtube video/channel is:
 ```js
-const Youtube = require('youtube.js');
+const Youtube = require('youtube-api.js');
 
 const Client = new Youtube('api-key'); // replace api-key with your Youtube API
 
@@ -35,7 +35,7 @@ Client.search('Chess Tricks', 5, (res) => {
 ### Youtube Video
 The Basic Usage To Search for youtube video/channel is:
 ```js
-const Youtube = require('youtube.js'); // replace api-key with your Youtube API
+const Youtube = require('youtube-api.js'); // replace api-key with your Youtube API
 
 const Client = new Youtube('api-key');
 
@@ -51,7 +51,7 @@ Client.getVideo('<videoid>', (res) => {
 ```
 ### Youtube Channel
 ```js
-const Youtube = require('youtube.js'); // replace api-key with your Youtube API
+const Youtube = require('youtube-api.js'); // replace api-key with your Youtube API
 
 const Client = new Youtube('api-key');
 

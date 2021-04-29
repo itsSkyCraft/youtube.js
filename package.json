@@ -1,5 +1,5 @@
 {
-  "name": "youtube.js",
+  "name": "youtube-api.js",
   "version": "1.0.0",
   "description": "A Node.js Package For Interacting With Youtube V3 API",
   "main": "index.js",
