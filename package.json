@@ -1,0 +1,25 @@
+{
+  "name": "youtube.js",
+  "version": "1.0.0",
+  "description": "A Node.js Package For Interacting With Youtube V3 API",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsSkyCraft/youtube.js.git"
+  },
+  "keywords": [
+    "youtube"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/itsSkyCraft/youtube.js/issues"
+  },
+  "homepage": "https://github.com/itsSkyCraft/youtube.js#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}
